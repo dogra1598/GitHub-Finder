@@ -1,0 +1,36 @@
+.githubfinder__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #24292e;
+    padding: 1.5rem 2rem;
+}
+
+.git__svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #fff;
+}
+
+.githubfinder__title h1 {
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+}
+
+.githubfinder__footer {
+    /* margin-top: 5rem; */
+    font-size: 2rem;
+    background-color: #24292e;
+    color: #fff;
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 48em) {
+    
+}

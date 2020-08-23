@@ -1,0 +1,21 @@
+.searchinput input {
+    display: block;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border: 1px solid #949292;
+    color: #24292e;
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.searchinput input:focus {
+    outline: none;
+    border: 2px solid #24292e;
+}
+
+.searchinput label {
+    display: block;
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 1.6rem;
+    color: #949292;
+}

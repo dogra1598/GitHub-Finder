@@ -1,0 +1,122 @@
+.error {
+  text-align: center;
+  margin: 2rem 1rem;
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+  background-color: #f18585;
+  cursor: pointer;
+}
+
+.error h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.gituser {
+  margin: 2rem 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 5px #949292;
+  border-radius: 0.3rem;
+}
+
+.gituser__avatar img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.gituser__profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.gituser__btn {
+  display: block;
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: #112d32;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.gituser__profile__badges {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0 2rem 0;
+}
+
+.gituser__profile__badge {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  background-color: #ffd571;
+  color: #24292e;
+}
+
+.gituser__profile__badge:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.gituser__profile__info {
+  border: 1px solid #949292;
+  border-radius: 0.5rem;
+}
+
+.gituser__profile__info ul {
+  list-style: none;
+}
+
+.gituser__profile__info ul li {
+  border-top: 1px solid #949292;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #575656;
+}
+
+.gituser__profile__info ul li:last-child {
+  border-bottom: none;
+}
+
+.gituser__profile__info ul li:first-child {
+  border-top: none;
+}
+
+@media (min-width: 48em) {
+  .error {
+    margin: 2rem 10%;
+  }
+
+  .gituser {
+    display: flex;
+    margin: 2rem 10%;
+  }
+
+  .gituser__avatar {
+    width: 30%;
+    margin: 0 2rem 0 0;
+  }
+
+  .gituser__profile__badge {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .gituser__profile__badges {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  .error {
+    margin: 2rem 20%;
+  }
+
+  .gituser {
+    margin: 2rem 20%;
+  }
+}
